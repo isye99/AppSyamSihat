@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'my.dafit.android'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'my.dafit.android'
+        minSdk 26
+        targetSdk 35
+        versionCode 12
+        versionName "1.2"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
